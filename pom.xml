@@ -14,6 +14,7 @@
 
     <properties>
         <httpclient.version>4.5.2</httpclient.version>
+        <guava.version>21.0</guava.version>
     </properties>
 
     <dependencies>
@@ -22,6 +23,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>${httpclient.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 
